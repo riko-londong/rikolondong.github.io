@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.loader {
+  width: 200px;
+  padding: 10px;
+  background: #ddd;
+  border: 5px solid #444;
+  display: flex;
+  flex-wrap: wrap;
+  transform: rotate(45deg);
+  &__square {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #444;
+    margin: 5px;
+  }
+  .square--1 {
+    animation: backgroundChange infinite 4s ;
+  }
+  .square--2 {
+    animation: backgroundChange infinite 4s 1s;
+  }
+  .square--3 {
+    animation: backgroundChange infinite  4s 3s;
+  }
+  .square--4 {
+    animation: backgroundChange infinite 4s 2s;
+  }
+}
+
+@keyframes backgroundChange {
+  0% {
+    
+  }
+  25% {
+    background: transparent;
+  }
+  50% {
+    background: #444;
+  }
+  75% {
+    background: transparent;
+  }
+  100% {
+    background: transparent;
+  }
+}

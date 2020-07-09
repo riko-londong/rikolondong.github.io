@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Page | Riko R.L</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans'>
+    <link rel="stylesheet" href="<?php echo  base_url('assets/css/bootstrap.css'); ?>">
+    <link rel="stylesheet" href="<?php echo  base_url('assets/css/animate.css'); ?>">
+    <script src="<?php echo  base_url('assets/js/bootstrap.min.js'); ?>"></script>
+    
+    <link rel="stylesheet" href="<?php echo  base_url('assets/css/loader.css'); ?>">
+    
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+    <div class="container" id="loader1">
+      <div class="row">
+        <div class="col-sm">
+          <center><div class="loader animated flash">
+            <div class="loader__square square--1"></div>
+            <div class="loader__square square--3"></div>
+            <div class="loader__square square--2"></div>
+            <div class="loader__square square--4"></div>
+          </div></center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm mt-4 animated slideInUp">
+          <center>
+          <span class="glitch">[お待ちください]</span>
+          </center>
+        </div>
+      </div>
+    </div>
+    <div class="container animate-bottom" id="myDiv">
+      <div class="row">
+        <div class="col-sm">
+          <h1></h1>
+        </div>
+      </div>
+    </div>
+    <script  src="<?php echo  base_url('assets/js/loader.js'); ?>"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  </body>
+</html>
